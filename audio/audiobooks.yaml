@@ -1,0 +1,26 @@
+id: audiobooks
+name: Audiobooks
+type: audio
+category: audio
+description: Audiobooks from public trackers
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - audiobookbay
+search_pattern: "{query} audiobook"
+filters:
+  format:
+    - M4B
+    - MP3
+    - FLAC
+  quality:
+    - 64kbps
+    - 128kbps
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders
+notes: |
+  Audiobook content.
+  Fiction, non-fiction, educational.

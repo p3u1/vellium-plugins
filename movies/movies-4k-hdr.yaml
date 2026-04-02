@@ -1,0 +1,30 @@
+id: movies-4k-hdr
+name: Movies 4K HDR
+type: movies
+category: movies
+description: 2160p / HDR / REMUX only
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - rarbg
+  - torrentgalaxy
+search_pattern: "{query} 2160p HDR"
+filters:
+  quality:
+    - 2160p
+    - 4K
+  hdr:
+    - HDR
+    - HDR10
+    - HDR10+
+  codec:
+    - HEVC
+    - x265
+  release_type:
+    - REMUX
+    - BluRay
+seeder_priority: true
+cache_optimized: true
+min_size: 15GB
+sort_by: quality

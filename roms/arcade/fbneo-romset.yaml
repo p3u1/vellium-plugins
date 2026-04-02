@@ -1,0 +1,19 @@
+id: fbneo-romset
+name: FBNeo
+type: arcade
+category: arcade
+description: Preferred for RetroArch arcade emulation
+enabled: true
+version: 1.0.0
+search_keywords:
+  - FBNeo ROMSET
+  - FinalBurn Neo
+  - FBNeo Arcade
+includes:
+  - Complete FBNeo ROM set
+  - Neo Geo ROMs
+  - CPS1/CPS2 games
+format: ZIP
+min_size: 20GB
+seeder_priority: true
+sort_by: seeders

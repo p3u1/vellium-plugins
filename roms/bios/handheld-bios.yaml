@@ -1,0 +1,20 @@
+id: handheld-bios
+name: Handheld BIOS
+type: bios
+category: bios
+description: Handheld console BIOS files
+enabled: true
+version: 1.0.0
+search_keywords:
+  - GameBoy BIOS
+  - Nintendo DS BIOS
+  - PSP BIOS
+includes:
+  - GameBoy/GBC/GBA BIOS
+  - Nintendo DS/3DS firmware
+  - PSP firmware
+format: ZIP
+min_size: 5MB
+max_size: 200MB
+seeder_priority: true
+sort_by: seeders

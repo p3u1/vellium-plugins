@@ -1,0 +1,26 @@
+id: retroarch-starter-kit
+name: RetroArch Starter Kit
+type: roms
+category: starter-kits
+description: Core BIOS + Nintendo home/handheld systems + FBNeo arcade
+enabled: true
+version: 1.0.0
+search_keywords:
+  - RetroArch BIOS Pack
+  - Nintendo NES No-Intro
+  - Nintendo SNES No-Intro
+  - Nintendo N64 No-Intro
+  - Nintendo GameBoy No-Intro
+  - Nintendo GBA No-Intro
+  - FBNeo ROMSET
+includes:
+  - Core BIOS files
+  - NES complete set
+  - SNES complete set
+  - N64 complete set
+  - GameBoy/GBC/GBA complete sets
+  - FBNeo arcade ROMs
+format: ZIP
+min_size: 5GB
+seeder_priority: true
+sort_by: seeders

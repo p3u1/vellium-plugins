@@ -1,0 +1,35 @@
+id: ultimate-streams
+name: Ultimate Streams
+type: ultimate
+category: ultimate
+description: One plugin that imports the strongest sources across all media categories
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - rarbg
+  - torrentgalaxy
+  - nyaa
+  - yts
+  - eztv
+search_pattern: "{query}"
+filters:
+  quality:
+    - 1080p
+    - 720p
+    - 2160p
+    - 4K
+  codec:
+    - x264
+    - x265
+    - HEVC
+categories:
+  - movies
+  - tv
+  - anime
+  - documentaries
+min_seeders: 5
+seeder_priority: true
+cache_optimized: true
+sort_by: seeders

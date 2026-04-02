@@ -1,0 +1,33 @@
+id: tv-4k-hdr
+name: TV 4K HDR
+type: tv
+category: tv
+description: 4K HDR TV episodes and seasons
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - rarbg
+  - torrentgalaxy
+search_pattern: "{query} 2160p HDR"
+filters:
+  quality:
+    - 2160p
+    - 4K
+  hdr:
+    - HDR
+    - HDR10
+    - Dolby Vision
+  codec:
+    - HEVC
+    - x265
+  release_type:
+    - WEB-DL
+    - WEBRip
+seeder_priority: true
+cache_optimized: true
+min_size: 5GB
+sort_by: quality
+notes: |
+  High-quality 4K HDR TV content.
+  Best for modern 4K HDR displays.

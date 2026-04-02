@@ -1,0 +1,26 @@
+id: full-emulation-starter-kit
+name: Full Emulation Starter Kit
+type: roms
+category: starter-kits
+description: All major consoles + Complete BIOS coverage + CHD disk formats
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Complete ROM Collection
+  - All Console BIOS
+  - PlayStation Redump CHD
+  - Dreamcast Redump CHD
+  - Saturn Redump CHD
+  - MAME ROMSET
+includes:
+  - All console BIOS
+  - Nintendo complete sets
+  - PlayStation 1/2 CHD
+  - Dreamcast CHD
+  - Saturn CHD
+  - Sega systems
+  - Arcade collections
+format: Multiple
+min_size: 50GB
+seeder_priority: true
+sort_by: seeders

@@ -1,0 +1,20 @@
+id: sega-bios
+name: Sega BIOS
+type: bios
+category: bios
+description: Sega system BIOS files
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Sega BIOS
+  - Saturn BIOS
+  - Dreamcast BIOS
+includes:
+  - Saturn BIOS (all regions)
+  - Dreamcast BIOS (all regions)
+  - Genesis/Mega Drive
+format: ZIP
+min_size: 5MB
+max_size: 200MB
+seeder_priority: true
+sort_by: seeders

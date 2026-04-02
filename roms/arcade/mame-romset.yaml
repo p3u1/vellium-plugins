@@ -1,0 +1,19 @@
+id: mame-romset
+name: MAME
+type: arcade
+category: arcade
+description: Full MAME ROM sets
+enabled: true
+version: 1.0.0
+search_keywords:
+  - MAME ROMSET
+  - MAME 0.250
+  - MAME Complete
+includes:
+  - Complete MAME ROM set
+  - BIOS files
+  - CHD files
+format: ZIP/CHD
+min_size: 100GB
+seeder_priority: true
+sort_by: version

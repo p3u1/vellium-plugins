@@ -1,0 +1,22 @@
+id: chd-only
+name: CHD Only
+type: formats
+category: formats
+description: Optimized disk images for PS1, PS2, Saturn, Dreamcast
+enabled: true
+version: 1.0.0
+search_keywords:
+  - PS1 CHD
+  - PS2 CHD
+  - Saturn CHD
+  - Dreamcast CHD
+  - Redump CHD
+includes:
+  - PlayStation 1 Redump CHD
+  - PlayStation 2 Redump CHD
+  - Saturn Redump CHD
+  - Dreamcast Redump CHD
+format: CHD
+min_size: 1GB
+seeder_priority: true
+sort_by: seeders

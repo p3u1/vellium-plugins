@@ -1,0 +1,20 @@
+id: sega-systems
+name: Sega Systems
+type: consoles
+category: consoles
+description: Genesis, Saturn, Dreamcast complete sets
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Sega Genesis No-Intro
+  - Sega Saturn Redump
+  - Dreamcast Redump CHD
+includes:
+  - Genesis/Mega Drive No-Intro
+  - Sega CD Redump
+  - Saturn Redump CHD
+  - Dreamcast Redump CHD
+format: Multiple
+min_size: 30GB
+seeder_priority: true
+sort_by: seeders

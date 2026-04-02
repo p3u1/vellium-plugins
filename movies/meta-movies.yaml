@@ -1,0 +1,26 @@
+id: meta-movies
+name: Meta Movies
+type: movies
+category: movies
+description: General public trackers for films
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - rarbg
+  - yts
+search_pattern: "{query} {quality}"
+filters:
+  quality:
+    - 1080p
+    - 720p
+    - 2160p
+    - BluRay
+  codec:
+    - x264
+    - x265
+    - HEVC
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders

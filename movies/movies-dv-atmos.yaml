@@ -1,0 +1,31 @@
+id: movies-dv-atmos
+name: Movies Dolby Vision / Atmos
+type: movies
+category: movies
+description: Keyword-enforced DV + Atmos streams
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - rarbg
+  - torrentgalaxy
+search_pattern: "{query} Dolby Vision Atmos"
+filters:
+  video:
+    - DV
+    - DoVi
+    - Dolby Vision
+  audio:
+    - Atmos
+    - TrueHD Atmos
+    - DD+ Atmos
+  quality:
+    - 2160p
+    - 4K
+  codec:
+    - HEVC
+    - x265
+seeder_priority: true
+cache_optimized: true
+min_size: 20GB
+sort_by: quality

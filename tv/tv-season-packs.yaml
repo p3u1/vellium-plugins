@@ -1,0 +1,29 @@
+id: tv-season-packs
+name: TV Season Packs
+type: tv
+category: tv
+description: Full seasons only (ideal for binge viewing)
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - rarbg
+search_pattern: "{query} Season {season} Complete"
+filters:
+  pack_type:
+    - Season
+    - Complete
+    - Full Season
+  quality:
+    - 1080p
+    - 720p
+    - 2160p
+  codec:
+    - x264
+    - x265
+    - HEVC
+seeder_priority: true
+cache_optimized: true
+min_files: 5
+sort_by: seeders

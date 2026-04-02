@@ -1,0 +1,23 @@
+id: roms-hq
+name: ROMs HQ
+type: meta
+category: meta
+description: Seeder-first ROM and BIOS packs for fast acquisition
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Complete ROM Collection
+  - No-Intro
+  - Redump
+  - TOSEC
+includes:
+  - High-seeder ROM packs
+  - Verified dumps (No-Intro/Redump)
+  - Complete BIOS collections
+categories:
+  - consoles
+  - arcade
+  - bios
+min_seeders: 10
+seeder_priority: true
+sort_by: seeders

@@ -1,0 +1,20 @@
+id: arcade-bios
+name: Arcade BIOS
+type: bios
+category: bios
+description: MAME and FBNeo arcade BIOS
+enabled: true
+version: 1.0.0
+search_keywords:
+  - MAME BIOS
+  - FBNeo BIOS
+  - Arcade BIOS
+includes:
+  - MAME BIOS ROMs
+  - FBNeo BIOS files
+  - Neo Geo BIOS
+format: ZIP
+min_size: 10MB
+max_size: 500MB
+seeder_priority: true
+sort_by: seeders

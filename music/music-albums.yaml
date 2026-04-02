@@ -1,0 +1,27 @@
+id: music-albums
+name: Music Albums
+type: music
+category: music
+description: Music albums and discographies
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - rutracker
+search_pattern: "{query} FLAC"
+filters:
+  quality:
+    - FLAC
+    - 320kbps
+    - V0
+  format:
+    - Album
+    - Discography
+    - EP
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders
+notes: |
+  High-quality music downloads.
+  Supports FLAC lossless and high-bitrate MP3.

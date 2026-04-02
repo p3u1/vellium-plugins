@@ -1,0 +1,35 @@
+id: internet-archive-full
+name: Internet Archive (Full)
+type: meta
+category: general
+description: Complete Internet Archive search with all file types
+enabled: true
+version: 1.0.0
+api_endpoint: https://archive.org/advancedsearch.php
+search_pattern: "{query}"
+file_types:
+  - All
+  - Video
+  - Audio
+  - Texts
+  - Software
+  - Image
+  - Data
+filters:
+  sort:
+    - downloads desc
+    - date desc
+    - title asc
+  media_type:
+    - movies
+    - audio
+    - texts
+    - software
+seeder_priority: false
+cache_optimized: false
+max_results: 50
+sort_by: downloads
+notes: |
+  Official Internet Archive API integration.
+  Searches across all public domain and open-source content.
+  Direct download links provided.

@@ -1,0 +1,17 @@
+id: microsoft-xbox
+name: Microsoft Xbox
+type: consoles
+category: consoles
+description: Xbox, Xbox 360 complete sets
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Xbox Redump
+  - Xbox 360 ISO
+includes:
+  - Original Xbox Redump
+  - Xbox 360 ISO collection
+format: ISO
+min_size: 50GB
+seeder_priority: true
+sort_by: seeders

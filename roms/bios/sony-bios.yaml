@@ -1,0 +1,21 @@
+id: sony-bios
+name: Sony BIOS
+type: bios
+category: bios
+description: PS1 / PS2 / PSP BIOS files
+enabled: true
+version: 1.0.0
+search_keywords:
+  - PlayStation BIOS
+  - PS1 BIOS
+  - PS2 BIOS
+  - PSP BIOS
+includes:
+  - PS1 SCPH BIOS (all regions)
+  - PS2 BIOS (all regions)
+  - PSP firmware
+format: ZIP
+min_size: 10MB
+max_size: 500MB
+seeder_priority: true
+sort_by: seeders

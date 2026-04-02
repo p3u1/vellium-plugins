@@ -1,0 +1,25 @@
+id: meta-hq-streams
+name: Meta HQ Streams
+type: hq
+category: hq
+description: Seeder-prioritized, high-quality results
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - rarbg
+  - torrentgalaxy
+search_pattern: "{query} 1080p"
+filters:
+  quality:
+    - 1080p
+    - 2160p
+    - BluRay
+  codec:
+    - x264
+    - x265
+    - HEVC
+min_seeders: 10
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders

@@ -1,0 +1,29 @@
+id: anime-movies
+name: Anime Movies
+type: anime
+category: anime
+description: Anime movies from Nyaa and public trackers
+enabled: true
+version: 1.0.0
+trackers:
+  - nyaa
+  - 1337x
+search_pattern: "{query} movie"
+filters:
+  quality:
+    - 1080p
+    - 720p
+    - BD
+  language:
+    - Sub
+    - Dub
+  release_group:
+    - SubsPlease
+    - EMBER
+    - Okay-Subs
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders
+notes: |
+  Anime feature films.
+  Includes Ghibli, Makoto Shinkai, and more.

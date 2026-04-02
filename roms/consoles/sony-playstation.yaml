@@ -1,0 +1,21 @@
+id: sony-playstation
+name: Sony PlayStation
+type: consoles
+category: consoles
+description: PS1, PS2, PS3, PSP complete sets
+enabled: true
+version: 1.0.0
+search_keywords:
+  - PS1 Redump CHD
+  - PS2 Redump CHD
+  - PS3 ISO
+  - PSP ISO
+includes:
+  - PlayStation 1 Redump CHD
+  - PlayStation 2 Redump CHD
+  - PlayStation 3 ISO collection
+  - PSP ISO collection
+format: CHD/ISO
+min_size: 50GB
+seeder_priority: true
+sort_by: seeders

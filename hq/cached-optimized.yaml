@@ -1,0 +1,24 @@
+id: cached-optimized
+name: Cached-Optimized
+type: hq
+category: hq
+description: High probability Real-Debrid cached torrents
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - rarbg
+  - yts
+search_pattern: "{query}"
+filters:
+  quality:
+    - 1080p
+    - 720p
+  codec:
+    - x264
+    - x265
+min_seeders: 50
+seeder_priority: true
+cache_optimized: true
+require_cached: true
+sort_by: cache_status

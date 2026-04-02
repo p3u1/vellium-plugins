@@ -1,0 +1,23 @@
+id: nintendo-home-consoles
+name: Nintendo (Home Consoles)
+type: consoles
+category: consoles
+description: NES, SNES, N64, GameCube, Wii complete sets
+enabled: true
+version: 1.0.0
+search_keywords:
+  - NES No-Intro
+  - SNES No-Intro
+  - N64 No-Intro
+  - GameCube Redump
+  - Wii Redump
+includes:
+  - NES complete No-Intro set
+  - SNES complete No-Intro set
+  - N64 complete No-Intro set
+  - GameCube ISO collection
+  - Wii ISO collection
+format: Multiple
+min_size: 20GB
+seeder_priority: true
+sort_by: seeders

@@ -1,0 +1,24 @@
+id: general-search
+name: General Search
+type: meta
+category: general
+description: Search engines integration (Google, DuckDuckGo, Bing)
+enabled: false
+version: 1.0.0
+search_engines:
+  - google
+  - duckduckgo
+  - bing
+search_pattern: "{query} torrent"
+filters:
+  site_filters:
+    - site:1337x.to
+    - site:thepiratebay.org
+    - site:archive.org
+seeder_priority: false
+cache_optimized: false
+sort_by: relevance
+notes: |
+  Uses regular search engines to find torrents.
+  Good for finding rare or obscure content.
+  Less reliable than dedicated torrent sites.

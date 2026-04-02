@@ -1,0 +1,23 @@
+id: cartridge-only
+name: Cartridge Only
+type: formats
+category: formats
+description: Classic ROM formats for older consoles
+enabled: true
+version: 1.0.0
+search_keywords:
+  - No-Intro
+  - NES ROMs
+  - SNES ROMs
+  - Genesis ROMs
+  - GBA ROMs
+includes:
+  - NES No-Intro
+  - SNES No-Intro
+  - Genesis No-Intro
+  - GameBoy/GBC/GBA No-Intro
+  - N64 No-Intro
+format: ZIP
+min_size: 500MB
+seeder_priority: true
+sort_by: seeders

@@ -1,0 +1,22 @@
+id: bios-all-systems
+name: BIOS (All Systems)
+type: bios
+category: bios
+description: Complete BIOS pack for all emulation systems
+enabled: true
+version: 1.0.0
+search_keywords:
+  - Emulator BIOS Pack
+  - RetroArch BIOS
+  - All Systems BIOS
+includes:
+  - PlayStation (PS1/PS2/PS3/PSP)
+  - Sega (Genesis/Saturn/Dreamcast)
+  - Nintendo (GameCube/Wii/DS/3DS)
+  - Arcade (MAME/FBNeo)
+  - Other systems
+format: ZIP
+min_size: 100MB
+max_size: 2GB
+seeder_priority: true
+sort_by: seeders

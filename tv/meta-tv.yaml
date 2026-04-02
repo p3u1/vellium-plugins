@@ -1,0 +1,29 @@
+id: meta-tv
+name: Meta TV
+type: tv
+category: tv
+description: Episodes and seasons from public trackers
+enabled: true
+version: 1.0.0
+trackers:
+  - 1337x
+  - thepiratebay
+  - rarbg
+  - eztv
+search_pattern: "{query} {season} {episode}"
+filters:
+  quality:
+    - 1080p
+    - 720p
+    - 2160p
+  codec:
+    - x264
+    - x265
+    - HEVC
+  release_type:
+    - WEB-DL
+    - WEBRip
+    - BluRay
+seeder_priority: true
+cache_optimized: false
+sort_by: seeders
