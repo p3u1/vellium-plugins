@@ -36,7 +36,7 @@ This repository hosts a complete, curated collection of plugins for high-quality
 
 ## 📱 Recommended Plugin Sets
 
-### For Streaming (Apple TV 4K)
+### For Streaming (Google TV, Apple TV 4K, Kodi, UHF | Chillio | IPTV & VOD)
 ```
 ✅ Movies 4K HDR
 ✅ Movies Dolby Vision / Atmos
