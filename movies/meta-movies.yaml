@@ -1,26 +1,32 @@
-id: meta-movies
-name: Meta Movies
-type: movies
-category: movies
-description: General public trackers for films
-enabled: true
-version: 1.0.0
-trackers:
-  - 1337x
-  - thepiratebay
-  - rarbg
-  - yts
-search_pattern: "{query} {quality}"
-filters:
-  quality:
-    - 1080p
-    - 720p
-    - 2160p
-    - BluRay
-  codec:
-    - x264
-    - x265
-    - HEVC
-seeder_priority: true
-cache_optimized: false
-sort_by: seeders
+name: 'Vellium-Inspired Meta Movies'
+author: 'Your Name Here'
+sources:
+  - id: '1337x.movies'
+    name: '1337x Movies'
+    version: 1
+    minVersion: '0.7'
+    about: >-
+      Searches 1337x.to for movies. Based on the Vellium Meta Movies plugin.
+    website: https://1337x.to
+    tags:
+      - name: 'Movies'
+        color: '#FF5722'
+    htmlParser:
+      searchUrl: '/search/{query}/1/'
+      rows: 'tbody > tr'
+      title:
+        selector: 'a[href*="/torrent/"]'
+        attribute: 'text'
+      magnet:
+        selector: 'a[href^="magnet:?xt=urn:btih:"]'
+        attribute: 'href'
+      size:
+        selector: 'td.size'
+        attribute: 'text'
+      sl:
+        seeders:
+          selector: 'td.seeds'
+          attribute: 'text'
+        leechers:
+          selector: 'td.leeches'
+          attribute: 'text'
